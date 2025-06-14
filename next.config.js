@@ -4,3 +4,9 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+
+module.exports = {
+  env: {
+    NEXTAUTH_URL: process.env.NEXTAUTH_URL,
+  },
+}
